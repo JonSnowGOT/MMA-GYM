@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>MMA Gym Los Angeles</title>
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap" rel="stylesheet">
+
+   <style>
+     body {
+        margin: 0;
+        font-family: Tahoma, sans-serif;
+        background-color: rgb(0, 0, 0);
+      }
+
+    .video {
+      position: relative;
+      padding-bottom: 56.25%;
+    }  
+
+    .video_media {
+      width: 100%;
+      height: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+    } 
+
+     .header-image {
+       height: 100vh;
+       width: 100%;
+       object-fit: cover;
+      }
+
+      .container {
+        position: absolute;
+        right: 32px;
+        left: 32px;
+        top: 20px;
+        font-size: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .menu-link {
+        color: rgb(77, 7, 7);
+        text-decoration: none;
+        margin-left: 50px;
+        font-size: 35px;
+        text-shadow: 2px 3px rgb(255, 0, 0);
+      }
+
+      .menu-link:hover {
+        text-decoration: underline;
+        color: rgb(0, 0, 0);
+      }
+
+
+     .headline {
+      position: absolute;
+      right: 2700px;
+      top: 900px;
+      color: rgb(248, 248, 248);
+      font-size: 80px;
+      width: 500px;
+      text-shadow: 5px 5px rgb(0, 0, 0);
+     }
+
+     .red {
+      color: rgb(255, 0, 0);
+      text-shadow: 3px 2px rgb(0, 0, 0);
+     }
+
+     .MMA {
+      text-shadow: 3px 2px rgb(0, 0, 0);
+      color: rgb(255, 0, 0);
+     }
+
+     .logo {
+      width: 400px;
+      left: 40px;
+      filter: brightness(15.0);
+     }
+
+     .two {
+      color: rgb(255, 0, 0);
+      text-shadow: 3px 2px rgb(0, 0, 0);
+     }
+
+     .quote {
+       position: absolute;
+       top: 300px;
+       color: rgb(255, 255, 255);
+       left: 1500px;
+       font-size: 65px;
+       text-shadow: 3px 2px rgb(0, 0, 0);
+     }
+
+     .text-4 {
+      position: absolute;
+      top: 5600px;
+      color: rgb(255, 0, 0);
+      text-shadow: 3px 2px rgb(0, 0, 0);
+      left: 60px;
+    }
+
+    .text-5 {
+      position: absolute;
+      top: 5700px;
+      left: 60px;
+      color: rgb(255, 0, 0);
+      text-shadow: 2px 2px rgb(0, 0, 0);
+    }
+
+    .Number {
+      position: absolute;
+      left: 60px;
+      top: 5800px;
+      color: rgb(255, 0, 0);
+      font-size: 25px;
+      text-shadow: 2px 2px rgb(0, 0, 0);
+    }
+
+    .email {
+      position: absolute;
+      left: 60px;
+      top: 5900px;
+      color: rgb(255, 0, 0);
+      font-size: 25px;
+      text-shadow: 2px 2px rgb(0, 0, 0);
+    }
+
+    .maps {
+      position: absolute;
+      left: 60px;
+      top: 6000px;
+      width: 700px;
+      height: 400px;
+    }
+
+    .h5 {
+     position: absolute; 
+     color: rgb(255, 255, 255);
+     top: 2000px;
+     left: 1400px;
+     font-size: 60px;
+     text-decoration: underline rgb(255, 0, 0) ;
+    }
+
+    .States {
+       position: absolute;
+       top: 2250px;
+       left: 100px;
+       width: 1000px;
+       
+    }
+
+
+    .SF {
+      position: absolute;
+      color: rgb(245, 245, 245);
+      top: 2600px;
+      left: 100px;
+      font-size: 55px;
+      text-shadow: 6px 5px rgb(0, 0, 0);
+    }
+    
+
+    .mma1 {
+      position: absolute;
+      color: rgb(245, 245, 245);
+      top: 2650px;
+      left: 100px;
+      font-size: 55px;
+      text-shadow: 6px 5px rgb(0, 0, 0);
+    }
+
+    .SF:hover {
+      text-decoration: none;
+      color: rgb(255, 0, 0);
+      cursor: pointer;
+    }
+
+    .mma1:hover {
+      text-decoration: none;
+      color: rgb(255, 0, 0);
+      cursor: pointer;
+    }
+
+    .button {
+     background-color: #ff0000;
+     border: none;
+     color: rgb(255, 255, 255);
+     padding: 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 60px;
+     margin: 4px 2px;
+     cursor: pointer;
+     top: 3000px;
+     position: absolute;
+     left: 1500px;
+     border-radius: 25px;
+       border-style: outset;
+       border-color: white;
+       -webkit-transition:  2s;
+       transition:  2s;
+    }
+
+    .button:hover {
+      text-decoration: underline;
+      color: rgb(255, 0, 0);
+      background: rgba(0, 0, 0, 0.1);
+      border-color: red;
+      transform: scale3d(2,2,2);
+    }
+
+
+    .LV {
+      position: absolute;
+      top: 2250px;
+      left: 1200px;
+      width: 1000px
+    }
+
+    .LVT {
+      position: absolute;
+      color: rgb(245, 245, 245);
+      top: 2720px;
+      left: 1200px;
+      font-size: 60px;
+      text-shadow: 6px 5px rgb(0, 0, 0);
+    }
+  
+    .mma2 {
+      position: absolute;
+      top: 2640px;
+      color: white;
+      left: 1200px;
+      font-size: 60px;
+      text-shadow: 6px 5px rgb(0, 0, 0);
+    }
+
+    .LVT:hover {
+      text-decoration: none;
+      color: rgb(255, 0, 0);
+      cursor: pointer;
+    }
+
+    .mma2:hover {
+      text-decoration: none;
+      color: rgb(255, 0, 0);
+      cursor: pointer;
+    }
+
+    .SD {
+      position: absolute;
+      top: 2250px;
+      left: 2300px;
+      width: 1000px
+    }
+
+    .SDT {
+      position: absolute;
+      color: rgb(245, 245, 245);
+      top: 2720px;
+      left: 2300px;
+      font-size: 60px;
+      text-shadow: 6px 5px rgb(0, 0, 0);
+    }
+
+    .SDT:hover {
+      text-decoration: none;
+      color: rgb(255, 0, 0);
+      cursor: pointer;
+    }
+    
+    .mma3 {
+      position: absolute;
+      top: 2640px;
+      color: white;
+      left: 2300px;
+      font-size: 60px;
+      text-shadow: 6px 5px rgb(0, 0, 0);
+    }
+
+    .mma3:hover {
+      text-decoration: none;
+      color: rgb(255, 0, 0);
+      cursor: pointer;
+    }
+
+    .Logola {
+      position: absolute;
+      top: 70px;
+      left: 200px;
+      filter: brightness(15.0);
+    }
+
+    .RE {
+      position: absolute;
+      color: white;
+      top:4000px;
+      right: 600px;
+      font-size: 150%;
+      background: red;
+      -webkit-transition:  2s;
+       transition:  2s;
+    }
+
+    .RE:hover {
+      font-size: 50px;
+    }
+
+    
+  
+
+   </style>
+ </head>
+ <body>
+
+  <h12 class="RE">Registration</h12>
+   
+  
+  <div class="button2">
+  <a href="Registration.html" class="button">Registration</a>
+  </div>
+
+  <div class="video">
+    <video class="video_media" src="img/khabib-nurmagomedov-the-eagle-training-motivation-2022-ufc_(VIDEOMIN.NET).mp4" autoplay muted loop></video>
+   </div>
+   
+   <div>
+      <video class="States" src="img/San francisco.mp4" autoplay muted loop></video>
+      <video class="LV" src="img/Las vegas.mp4" autoplay muted loop></video>
+      <video class="SD" src="img/San Diego.mp4" autoplay muted loop></video>
+   
+   <div class="container">
+   <img src="img/LogoMakr-6WpGA6.png" class="logo">
+   <img src="img/LA.png" class="Logola">
+
+     <div>
+       <a class="menu-link" href="Home.html">Home</a>
+       <a class="menu-link" href="Membership.html">Membership</a>
+       <a class="menu-link" href="About us.html">About us</a>
+     </div>
+   </div> 
+   <h1 class="headline">Become <span class="red">Stronger, Faster</span> and <span class="two">disciplined</span> at our <span class="MMA">MMA Gym</span></h1>
+   <h2 class="quote">“Who cares if you're tired or not, nobody cares, If you wanna become champion don't complain.”- Khabib Nurmagomedov</h2>
+   <h1 class="text-4">Contact:</h1>
+    <h2 class="text-5">Los Angeles-California USA</h2>
+    <h3 class="Number">0502215929</h3>
+    <h4 class="email">info@mmagym.us</h4>
+    <h5 class="h5">Our Gym's in USA</h5>
+    <h6 class="SF">San Francisco</h6>
+    <h7 class="mma1">MMA GYM</h7>
+    <h8 class="LVT">Las Vegas</h8>
+    <h9 class="mma2">MMA GYM</h9>
+    <h10 class="SDT">San Diego</h10>
+    <h11 class="mma3">MMA GYM</h11>
+    
+    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7860.330501659986!2d-118.32809684246142!3d34.07305499259657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b8c0b1298121%3A0x13ec441911d0e49e!2z0JvQsNGA0YfQvNC-0L3RgiDQktC40LvQu9C40LTQtiwg0JvQvtGBLdCQ0L3QtNC20LXQu9C10YEsINCa0LDQu9C40YTQvtGA0L3QuNGPIDkwMDA0LCDQodCo0JA!5e0!3m2!1sru!2sde!4v1687951488060!5m2!1sru!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+
+ </body>
+</html>
